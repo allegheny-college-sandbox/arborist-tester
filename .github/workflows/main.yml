@@ -15,7 +15,7 @@ jobs:
         with:
           branches: '["main"]'
           min-approvals: 1
-          admin-bypass: true
+          logins-bypass: '["dluman"]'
         uses: term-world/arborist@v0.1.0
     env:
       GITHUB_TOKEN: ${{ secrets.ARBORIST }}
