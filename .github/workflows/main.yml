@@ -13,7 +13,7 @@ jobs:
       - name: Arborist
         id: arborist
         with:
-          branches: "['main', 'feedback']"
+          branches: '["main", "feedback"]'
           min-approvals: 1
           bypass-user: dluman
         uses: term-world/arborist@v0.1.0
