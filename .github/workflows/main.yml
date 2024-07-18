@@ -16,6 +16,6 @@ jobs:
           branches: '["main"]'
           min-approvals: 1
           enforce-admins: false
-        uses: term-world/arborist@v0.1.0
+        uses: term-world/arborist@auto-allow-maintainers
     env:
       GITHUB_TOKEN: ${{ secrets.ARBORIST }}
